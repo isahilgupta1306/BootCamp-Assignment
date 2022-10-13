@@ -1,0 +1,166 @@
+*{
+    background-color: #272A37;
+    
+}
+
+.semi-window{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.signUp-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4rem;
+}
+
+.title{
+    color: white;
+    margin: 8rem 4rem 0rem 0rem ;
+    font-size: 2.5rem;
+}
+
+.login-redirect{
+    display: flex;
+    flex-direction: row;
+    gap: .4rem;
+    margin: 0 0 1rem 0;
+    width: fit-content;
+}
+
+#preLogin{
+    color: #99A4B4;
+    font-weight: 600;
+}
+#goToLogin{
+    color: #1D90F5;
+    font-weight: 600;
+}
+
+/* Form */
+.signupForm{
+    width: min-content;
+}
+
+.form{
+    /* width: min-content; */
+    width: 440px;
+}
+
+.form-column{
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    gap: 1rem;
+    width: 440px;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
+
+
+/* TextField */
+
+.customTextFieldContainer{
+    padding: 0.6rem;
+    background-color: #99a4b412;
+    border-radius: 15px;
+    height: 3rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.customTextFieldContainer:hover{
+    box-shadow: 0px 7px 25px -12px rgba(29,144,245,1);
+}
+
+.customTextFieldContainer:focus{
+    border-color: #1D90F5;
+}
+
+
+.label{
+    background-color: transparent;
+    font-size: 0.7rem;
+    color: #74757b;
+}
+
+.inputField{
+    border: none;
+    flex: 1;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding-right: 1rem;
+    width: 100%;
+}
+
+.customTextFieldRow{
+    width: 100%;
+    display: flex ;
+    flex-direction: row;
+    background-color: transparent;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.customTextFieldColumn{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: transparent;
+    width: min-content;
+}
+
+
+
+/* CSS for Button */
+.customButton{
+    flex: 0 0 13rem;
+    
+    padding: 0.6rem;
+    background-color: #1D90F5;
+    border: none;
+    border-radius: 25px;
+    height: 3rem;
+    /* flex: 1; */
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    animation-duration: 1s;
+    transition: 0.25s;
+}
+
+.customButton:hover{
+    box-shadow: 0px 0px 21px -8px rgba(255,255,255,1);
+    transform: scale(1.1, 1.1);
+}
+
+.buttonText{
+    background-color: transparent;
+    color: white;
+    font-size: 1rem;
+    font-weight: bolder;
+    align-self: center;
+}
+
+.button-form-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    width: 100%;
+}
